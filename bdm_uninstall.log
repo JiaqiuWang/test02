@@ -1,0 +1,68 @@
+2016/2/24  23:32:6  391		0		0%		promote process running 
+
+2016/2/24  23:32:11  159		4768		0%		********************************Uninstall Section Start******************************** 
+
+2016/2/24  23:32:11  162		3		0%		AppDir: C:\ProgramData 
+
+2016/2/24  23:32:11  165		3		0%		AllUserProfileDir: C:\ProgramData 
+
+2016/2/24  23:32:11  864		699		7%		taskbarunpin 
+
+2016/2/24  23:32:11  864		0		7%		DesktopDir: C:\Users\Public\Desktop 
+
+2016/2/24  23:32:11  864		0		7%		ProgramsDir: C:\ProgramData\Microsoft\Windows\Start Menu\Programs 
+
+2016/2/24  23:32:11  864		0		7%		SupplyID: 1050117271 
+
+2016/2/24  23:32:11  880		16		7%		INSTDIR: C:\Program Files (x86)\Baidu\BaiduAn\4.0.0.8029 
+
+2016/2/24  23:32:11  880		0		7%		@Get SomePath 
+
+2016/2/24  23:32:11  895		15		7%		@ExecWait RegSvr32 BDSWShellExt 
+
+2016/2/24  23:32:11  911		16		7%		@WriteRegDWORD RtpFlag 
+
+2016/2/24  23:32:12  635		724		21%		@CloseSelfProtect 
+
+2016/2/24  23:32:13  366		731		33%		@NewUninstallDrivers 
+
+2016/2/24  23:32:13  366		0		33%		@StopService Start
+
+2016/2/24  23:32:13  366		0		33%		StopSvc 
+
+2016/2/24  23:32:13  413		47		33%		KillRunningProcess 
+
+2016/2/24  23:32:13  432		19		54%		UninstallSvc 
+
+2016/2/24  23:32:13  435		3		54%		ReportUninstallData 
+
+2016/2/24  23:32:13  435		0		54%		@StopService Over
+
+2016/2/24  23:32:14  233		798		64%		@Remove File Start
+
+2016/2/24  23:32:14  233		0		64%		rename and delete bd0001.dll 
+
+2016/2/24  23:32:14  395		162		69%		rename and delete BDLogicUtils.dll 
+
+2016/2/24  23:32:14  780		385		71%		delete updata files 
+
+2016/2/24  23:32:15  533		753		73%		RMDir /r INSTDIR 
+
+2016/2/24  23:32:15  752		219		75%		DeleteDirectory 
+
+2016/2/24  23:32:15  958		206		76%		/REBOOTOK 
+
+2016/2/24  23:32:15  964		6		76%		@Remove File Over
+
+2016/2/24  23:32:15  968		4		76%		Write SoftManagerKeyValue 
+
+2016/2/24  23:32:15  980		12		76%		WriteConfigFile 
+
+2016/2/24  23:32:15  995		15		91%		delete shorcut 
+
+2016/2/24  23:32:15  998		3		91%		Delete Register 
+
+2016/2/24  23:32:16  1		3		91%		GetAsynThreadState 
+
+2016/2/24  23:32:16  3		2		91%		********************************Uninstall Section Over******************************** 
+
